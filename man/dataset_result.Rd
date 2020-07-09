@@ -4,8 +4,15 @@
 \alias{dataset_result}
 \title{Fit all models for a single dataset}
 \usage{
-dataset_result(d, X, C = NA, Ys, alpha = 0.05, center.stats = TRUE,
-  bhat.orig = NA)
+dataset_result(
+  d,
+  X,
+  C = NA,
+  Ys,
+  alpha = 0.05,
+  center.stats = TRUE,
+  bhat.orig = NA
+)
 }
 \arguments{
 \item{d}{Dataframe}

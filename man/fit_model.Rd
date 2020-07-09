@@ -4,8 +4,16 @@
 \alias{fit_model}
 \title{Fit OLS model for a single outcome}
 \usage{
-fit_model(X, C = NA, Y, Ys, d, center.stats = FALSE, bhat.orig = NA,
-  alpha = 0.05)
+fit_model(
+  X,
+  C = NA,
+  Y,
+  Ys,
+  d,
+  center.stats = FALSE,
+  bhat.orig = NA,
+  alpha = 0.05
+)
 }
 \arguments{
 \item{X}{Single quoted name of covariate of interest}

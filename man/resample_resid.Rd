@@ -4,8 +4,17 @@
 \alias{resample_resid}
 \title{Resample residuals for OLS}
 \usage{
-resample_resid(d, X, C = NA, Ys, alpha, resid, bhat.orig, B = 2000,
-  cores = NULL)
+resample_resid(
+  d,
+  X,
+  C = NA,
+  Ys,
+  alpha,
+  resid,
+  bhat.orig,
+  B = 2000,
+  cores = NULL
+)
 }
 \arguments{
 \item{d}{Dataframe}
